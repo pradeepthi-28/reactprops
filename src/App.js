@@ -4,13 +4,15 @@ import FuncProps from './FuncProps'
 import StateExample from './StateExample' 
 import DemoExample from './DemoExample'
 import Events from './Events'
+import JSX from './JSX'
 function App(){
   return(
     <div>
+    <StateExample/>
+    {/*<JSX/>
     <Events/>
-    {/*<h1>hello</h1>
+    <h1>hello</h1>
     <DemoExample price="firstprice"/>
-     <StateExample/>
     <FuncProps carname="rolls royce" year="1998"/>*/}
      {/* <PropsExample name="deepu" age="20"/>
       {/*<p>Have a great day</p>
